@@ -1,6 +1,12 @@
 package javaegitimi.encapsulation;
 
 public class Urun {
+	
+	//constructor, yani yapıcı oluşturduk.
+	public Urun() {
+		System.out.println("Yapıcı çalıştırıldı");
+	}
+	
 	private int id;
 	private String urunAdi;
 	private String urunAciklamasi;

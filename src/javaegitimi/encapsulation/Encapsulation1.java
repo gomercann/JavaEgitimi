@@ -14,6 +14,13 @@ public class Encapsulation1 {
 		UrunYonetimi ekle = new UrunYonetimi();
 		ekle.Ekle(yeniUrun);
 		
+		
+		//constructor kullandığımız bir nesne yaratmak istediğimizde, yapıcı içindeki değişiklikleri 
+		//en baştan vermek zorundayız. Yoksa hata verir.
+		
+		YapiciKullanimi yapi = new YapiciKullanimi(4,"gökhan",72);
+		System.out.println(yapi.getA());
+		
 	}
 
 }
